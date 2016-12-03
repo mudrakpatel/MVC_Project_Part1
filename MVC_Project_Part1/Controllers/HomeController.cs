@@ -15,16 +15,18 @@ namespace MVC_Project_Part1.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            //ViewBag.Message = "Your application description page.";
 
-            return View();
+            //return View();
+            return RedirectToAction("Index");
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Stay connected!";
+            //ViewBag.Message = "Stay connected!";
 
-            return View();
+            //return View();
+            return RedirectToAction("Index");
         }
     }
 }
